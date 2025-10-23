@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Asset Mindset - Buy Now for ₹79</title>
+    <!-- Load Tailwind CSS --><script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Lucide Icons for aesthetic elements --><script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles for better readability and a professional sales page feel */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #e5e7eb; /* Soft grey background */
+        }
+        .container-wrapper {
+            max-width: 900px;
+        }
+        .chapter-heading {
+            border-bottom: 2px solid #3b82f6; /* Blue border for emphasis */
+            padding-bottom: 0.5rem;
+            margin-bottom: 2rem;
+            color: #1f2937;
+        }
+        .buy-button {
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+        }
+        .buy-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+        }
+        /* Sticky buy bar for mobile */
+        @media (max-width: 768px) {
+            .sticky-buy-bar {
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                z-index: 50;
+                box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1);
+            }
+        }
+    </style>
+</head>
+<body class="text-gray-700">
+
+    <!-- Sticky Buy Bar (Visible on Mobile) --><div class="sticky-buy-bar bg-white md:hidden p-3 border-t border-gray-200">
+        <button onclick="document.getElementById('buy-section').scrollIntoView({ behavior: 'smooth' });"
+                class="w-full buy-button bg-green-600 text-white font-extrabold text-xl py-3 rounded-xl shadow-lg hover:bg-green-700">
+            Buy Now for ONLY ₹79 <span class="text-sm font-medium ml-2">(Limited Time!)</span>
+        </button>
+    </div>
+
+    <div class="container-wrapper mx-auto px-4 sm:px-6 py-12 bg-white shadow-2xl rounded-lg mt-8 mb-8">
+
+        <!-- HERO SECTION: Title, Price, and Cover --><header class="text-center mb-16 pt-4 pb-12 rounded-xl">
+            <h1 class="text-4xl sm:text-6xl font-extrabold text-gray-900 leading-tight mb-3">
+                The Asset Mindset
+            </h1>
+            <h2 class="text-xl sm:text-3xl font-medium text-indigo-600 tracking-wide mb-8">
+                Your Blueprint for Financial Freedom in India.
+            </h2>
+            
+            <div class="flex flex-col md:flex-row items-center justify-center gap-8">
+                
+                <!-- Ebook Cover Mockup --><div class="w-48 md:w-64 flex-shrink-0">
+                    <img class="w-full h-auto rounded-lg shadow-2xl border-4 border-indigo-500 transform hover:scale-[1.03] transition duration-300"
+                         src="https://placehold.co/300x450/3730a3/ffffff?text=Asset+Mindset%0A%0A%E2%82%B979"
+                         alt="Asset Mindset Ebook Cover">
+                    <p class="text-sm italic mt-2 text-gray-500">Instant PDF Download</p>
+                </div>
+
+                <!-- CTA Column --><div class="text-center md:text-left">
+                    <p class="text-2xl sm:text-3xl font-bold text-gray-800 mb-2">Stop Trading Time for Money.</p>
+                    <p class="text-lg text-gray-600 mb-6">Learn the mindset that builds real, lasting wealth.</p>
+                    
+                    <div class="p-4 bg-yellow-50 rounded-lg shadow-inner mb-6">
+                        <span class="text-5xl font-extrabold text-red-600 mr-2">₹79</span>
+                        <span class="text-xl font-bold text-gray-600 line-through">₹499</span>
+                        <span class="text-base text-red-600 ml-2">(90% OFF - Sale Ends Today!)</span>
+                    </div>
+
+                    <button onclick="document.getElementById('buy-section').scrollIntoView({ behavior: 'smooth' });"
+                            class="buy-button bg-indigo-600 text-white font-extrabold text-2xl px-12 py-4 rounded-xl shadow-2xl hover:bg-indigo-700 w-full md:w-auto">
+                        UNLOCK NOW (₹79)
+                    </button>
+                    <p class="mt-2 text-sm text-gray-500">Secure Payment via UPI (Google Pay, PhonePe, Paytm)</p>
+
+                </div>
+            </div>
+        </header>
+        <!-- END: HERO SECTION --><div class="h-px w-full bg-gray-200 my-16"></div>
+
+        <!-- Section 1: What You Will Discover (Summary) --><section class="mb-16">
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-center mb-10 chapter-heading">
+                INSIDE: Your Path From Paycheck to Passive Income
+            </h2>
+            <div class="space-y-8">
+                <div class="flex items-start p-4 bg-gray-50 rounded-lg border-l-4 border-yellow-500 shadow-sm">
+                    <i data-lucide="brain" class="w-8 h-8 mr-4 text-yellow-600 flex-shrink-0 mt-1"></i>
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-1">Ditch the "Employee Mindset"</h3>
+                        <p>Learn the difference between working for money and making money work for you. Identify and eliminate the toxic liabilities holding back your financial growth.</p>
+                    </div>
+                </div>
+                <div class="flex items-start p-4 bg-gray-50 rounded-lg border-l-4 border-green-500 shadow-sm">
+                    <i data-lucide="arrow-up-circle" class="w-8 h-8 mr-4 text-green-600 flex-shrink-0 mt-1"></i>
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-1">Focus on Indian-Relevant Assets</h3>
+                        <p>We break down what truly constitutes an asset in the Indian economic context, from digital businesses to smart real estate moves. It's not just theory; it's local action.</p>
+                    </div>
+                </div>
+                <div class="flex items-start p-4 bg-gray-50 rounded-lg border-l-4 border-red-500 shadow-sm">
+                    <i data-lucide="trending-up" class="w-8 h-8 mr-4 text-red-600 flex-shrink-0 mt-1"></i>
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-1">The Power of Unstoppable Momentum</h3>
+                        <p>Read the author's raw, personal story of going from broke to financially unstoppable. Discover the 12 non-negotiable mental shifts required for massive success.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END: Section 1 --><div class="h-px w-full bg-gray-200 my-16"></div>
+
+        <!-- Section 2: Why This Book Works (Testimonial/Personal Story) --><section class="mb-16">
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-center mb-10 chapter-heading">
+                THE AUTHOR'S PROMISE: "How I Went From Broke to Unstoppable"
+            </h2>
+            <p class="text-lg mb-8 italic text-center text-gray-600">This isn’t a theory book. It’s a roadmap forged from financial struggle and real-world success. Here are just a few of the mindset changes you’ll master:</p>
+
+            <div class="grid md:grid-cols-2 gap-x-8 gap-y-6">
+                <!-- Content retained from original file, repurposed as testimonials/key takeaways --><div class="p-4 bg-white rounded-xl shadow-md border-t-4 border-indigo-500">
+                    <h4 class="text-xl font-semibold mb-2 text-indigo-700">You Have to Want It So Bad It Hurts</h4>
+                    <p class="text-sm">Success comes to the obsessed. Learn how to transform desire into the necessary fuel for sustained, uncomfortable action.</p>
+                </div>
+                <div class="p-4 bg-white rounded-xl shadow-md border-t-4 border-indigo-500">
+                    <h4 class="text-xl font-semibold mb-2 text-indigo-700">If You Don’t Believe in Yourself, No One Else Will</h4>
+                    <p class="text-sm">Confidence isn’t pretending; it’s choosing to believe in your potential even when the evidence isn’t there yet. Get the blueprint for self-belief.</p>
+                </div>
+                <div class="p-4 bg-white rounded-xl shadow-md border-t-4 border-indigo-500">
+                    <h4 class="text-xl font-semibold mb-2 text-indigo-700">A Dream Without a Plan Is Just a Fantasy</h4>
+                    <p class="text-sm">Wanting success isn't enough. We show you how to break down your financial vision into daily, check-off-able actions.</p>
+                </div>
+                <div class="p-4 bg-white rounded-xl shadow-md border-t-4 border-indigo-500">
+                    <h4 class="text-xl font-semibold mb-2 text-indigo-700">Decide. Don’t Overthink It. Move.</h4>
+                    <p class="text-sm">Speed beats perfection. Stop 'analysis paralysis' and learn to build momentum with fast, clear decision-making.</p>
+                </div>
+            </div>
+        </section>
+        <!-- END: Section 2 --><div class="h-px w-full bg-gray-200 my-16"></div>
+
+
+        <!-- PAYMENT SECTION: UPI Integration --><section id="buy-section" class="mb-16 pt-8 border-t border-gray-200">
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-center mb-8 chapter-heading text-green-700">
+                GET INSTANT ACCESS: Complete Your Purchase
+            </h2>
+
+            <div class="p-6 sm:p-10 bg-green-50 border-4 border-green-300 rounded-2xl shadow-2xl">
+                <div class="text-center mb-6">
+                    <p class="text-3xl font-semibold text-gray-800 mb-1">
+                        Total Price: 
+                        <span class="text-5xl font-extrabold text-green-700 ml-2">₹79</span>
+                    </p>
+                    <p class="text-xl font-medium text-gray-600">Secure and Instant Download.</p>
+                </div>
+
+                <!-- UPI Instructions: Manual Payment Only -->
+                <div class="flex justify-center">
+                    <div class="w-full max-w-lg">
+                        <p class="text-lg font-bold text-gray-800 mb-3 text-center">Use UPI Deep Link or Copy Manually:</p>
+                        
+                        <div class="bg-white p-4 rounded-lg border border-indigo-300 shadow-md mb-4">
+                            <label class="block text-sm font-medium text-gray-500">Recipient UPI ID:</label>
+                            <input type="text" id="upi-id" value="jitinmeena@fam" readonly 
+                                   class="mt-1 w-full text-xl font-mono text-gray-900 border-none outline-none bg-white p-0" />
+                            <p class="text-xs text-gray-500 mt-1">Click the button below to copy the ID, or use the button above that to pay instantly via your UPI app.</p>
+                        </div>
+
+                        <!-- UPI DEEP LINK BUTTON --><button id="pay-upi-btn" onclick="payViaUpi()"
+                                class="w-full buy-button bg-green-600 text-white font-extrabold text-lg py-3 rounded-lg hover:bg-green-700 flex items-center justify-center space-x-2 mb-3">
+                            <i data-lucide="zap" class="w-5 h-5"></i>
+                            <span>Open UPI App & Pay ₹79 Instantly</span>
+                        </button>
+
+                        <button id="copy-upi-btn" onclick="copyUpiId()"
+                                class="w-full buy-button bg-indigo-600 text-white font-bold text-lg py-3 rounded-lg hover:bg-indigo-700 flex items-center justify-center space-x-2">
+                            <i data-lucide="copy" class="w-5 h-5"></i>
+                            <span>Copy UPI ID Manually</span>
+                        </button>
+                        <p id="copy-message" class="text-sm font-semibold text-indigo-600 mt-2 hidden text-center">.</p>
+
+                        <div class="mt-6 p-3 bg-red-100 rounded-lg border-l-4 border-red-500">
+                            <p class="font-bold text-red-800">IMPORTANT STEP AFTER PAYMENT:</p>
+                            <p class="text-sm text-red-700">After successful payment of **₹79** to `jitinmeena@fam`, **email your screenshot of the payment confirmation** to: `proof@assetmindset.in`. Your ebook link will be sent instantly upon verification (usually 2-5 minutes).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END: PAYMENT SECTION --><!-- Footer Section --><footer class="mt-20 border-t border-gray-300 pt-8 text-center text-sm text-gray-500">
+            <p>&copy; 2024 The Asset Mindset. All rights reserved.</p>
+            <p class="mt-2">Disclaimer: This content is for informational purposes only and does not constitute financial advice. Price is inclusive of all taxes.</p>
+        </footer>
+
+    </div>
+
+    <!-- JavaScript for Lucide Icons and UPI Copy Functionality --><script>
+        lucide.createIcons();
+        
+        // Function to handle UPI payment: attempts to open UPI app via deep link
+        function payViaUpi() {
+            const upiIdInput = document.getElementById('upi-id');
+            const copyMessage = document.getElementById('copy-message');
+            const upiId = upiIdInput.value;
+            const amount = '79.00';
+            const payeeName = 'Asset Mindset Ebook';
+
+            // 1. Generate UPI Deep Link
+            const upiLink = `upi://pay?pa=${upiId}&pn=${encodeURIComponent(payeeName)}&am=${amount}&cu=INR`;
+            
+            // 2. Attempt to open UPI app
+            window.location.href = upiLink;
+
+            // 3. Confirmation message and manual copy fallback
+            copyMessage.textContent = `Attempting to open UPI App. If nothing happens, the UPI ID (${upiId}) has been copied to your clipboard.`;
+            copyMessage.classList.remove('hidden');
+
+            // Copy UPI ID as a quick fallback action in case the link doesn't redirect immediately
+            upiIdInput.select();
+            upiIdInput.setSelectionRange(0, 99999);
+            document.execCommand('copy');
+
+            setTimeout(() => {
+                copyMessage.classList.add('hidden');
+            }, 7000);
+        }
+
+        // Function to copy UPI ID to clipboard (manual option)
+        function copyUpiId() {
+            const upiIdInput = document.getElementById('upi-id');
+            const copyMessage = document.getElementById('copy-message');
+            const upiId = upiIdInput.value;
+            
+            // Fallback for secure copy
+            if (document.execCommand('copy')) {
+                 // Select the text field
+                upiIdInput.select();
+                upiIdInput.setSelectionRange(0, 99999); // For mobile devices
+                
+                document.execCommand('copy');
+                
+                // Show confirmation message using the actual UPI ID
+                copyMessage.textContent = `UPI ID Copied! Please pay ₹79 to ${upiId}.`;
+                copyMessage.classList.remove('hidden');
+                setTimeout(() => {
+                    copyMessage.classList.add('hidden');
+                }, 3000);
+
+            } else {
+                // If execCommand fails (rare in modern browsers, but safe to check)
+                copyMessage.textContent = `Automatic copy failed. Please manually copy: ${upiId}`;
+                copyMessage.classList.remove('hidden');
+            }
+        }
+    </script>
+</body>
+</html>
